@@ -1,0 +1,308 @@
+@font-face {
+  font-family: "agressive-rhytmes-rog-regular";
+  src: url(fonts/AgressiveRhytmesRog-9YXpB.otf) format(otf);
+}
+
+header {
+  /* Style for "Header" */
+  background-color: #191a1b !important;
+  min-height: 7rem;
+}
+
+.headernav__logo {
+  font-family: "agressive-rhytmes-rog-regular";
+  font-weight: 400;
+  font-size: 3rem !important;
+}
+
+.headernav__menu {
+  margin-top: 22px;
+  /* Style for "Nav" */
+  list-style-type: none;
+  font-family: 'Teko', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.headernav__menu__item__a {
+  color: #ffffff !important;
+}
+
+.headernav__menu__item:hover {
+  /* Style for "Hover Bord" */
+  border-bottom: 2px solid #bf9456;
+}
+
+.header-banner {
+  background-image: url(img/tlo_banner.jpg);
+  background-size: cover;
+  background-color: #666666 !important;
+  opacity: 0.75;
+}
+
+.banner {
+  /* Style for "Banner" */
+  height: 50vw;
+  overflow: hidden;
+}
+
+.banner__span {
+  font-family: 'Pirata One', cursive;
+  font-size: 6rem;
+  margin-top: 10%;
+  color: #fff;
+}
+
+.banner__img {
+  padding: 0 !important;
+  position: relative;
+}
+
+.banner__img__lion {
+  position: absolute;
+  top: 50px;
+}
+
+.aboutbcg {
+  background-color: #191a1b !important;
+}
+
+.about__img {
+  padding-bottom: 36px;
+}
+
+.about__img__image {
+  margin-top: 36px;
+  max-width: 100%;
+}
+
+.about__welcome {
+  margin-top: 36px;
+  background: #000;
+  max-height: 500px;
+}
+
+.about__welcome__span {
+  /* Style for "welcome to" */
+  width: 100%;
+  color: #ffffff;
+  font-family: Teko;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 1px;
+  z-index: 3;
+}
+
+.about__welcome__p {
+  /* Style for "Tatto Stud" */
+  width: 100%;
+  height: auto;
+  color: #9c9c9c;
+  font-family: Teko;
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+  .about .about {
+    position: relative;
+  }
+  .about__img {
+    position: absolute;
+    left: 3%;
+  }
+  .about__welcome {
+    position: absolute;
+    right: 3%;
+    top: 190px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about .about {
+    position: relative;
+  }
+  .about__welcome {
+    position: absolute;
+    right: 6%;
+    top: 30px;
+  }
+}
+
+.artistsbgc {
+  background-color: #191a1b !important;
+  width: 100%;
+  opacity: 0.95;
+}
+
+.artists {
+  /* Style for "Artists" */
+  width: 100%;
+  min-height: 50vh;
+}
+
+.artists__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+}
+
+.artists__span {
+  /* Style for "our artist" */
+  color: #ffffff;
+  font-family: Teko;
+  font-size: 5rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  /* Text style for "o, ur arti" */
+  letter-spacing: 1.4px;
+  margin-top: 36px;
+}
+
+.artists__separator {
+  /* Style for "Image Sepe" */
+  width: 230px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artists__window {
+  /* Style for "Member 01" */
+  min-height: 40vh;
+  border: 1px solid #9c9c9c;
+  width: 25%;
+}
+
+.artists__window__members__img {
+  width: 100%;
+}
+
+.artists__window__members__span {
+  /* Style for "Charles Ju" */
+  width: 100%;
+  color: #ffffff;
+  font-family: Teko;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+.artists__window__members__function {
+  /* Text style for "- tattoois" */
+  color: #bf9456;
+  font-family: Teko;
+  font-size: 3vh;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.32px;
+  display: block;
+  text-align: center;
+}
+
+@media (min-width: 991px) {
+  .artists .artists__window {
+    /* Style for "Member 01" */
+    min-height: 30vh;
+  }
+}
+
+.featuredinkbgc {
+  /* Style for "Gallery" */
+  width: 100%;
+  height: auto;
+  background-color: #191a1b !important;
+  padding-bottom: 30px;
+}
+
+.featuredink__span {
+  /* Style for "featured" */
+  width: 297px;
+  color: #ffffff;
+  font-family: Teko;
+  font-size: 5rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+}
+
+.featuredink__separator {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featuredink__works {
+  margin-top: 30px;
+}
+
+.featuredink__works__image {
+  padding: 3px;
+}
+
+.featuredink__works__image__img {
+  width: 100%;
+}
+
+footer {
+  /* Style for "Footer" */
+  width: 100%;
+  height: auto;
+  background-color: #191a1b !important;
+  opacity: 0.95;
+  color: #fff;
+  padding-top: 36px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  font-family: Teko;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
+.footer__contact__lines {
+  list-style-type: none;
+}
+
+.test {
+  text-align: center;
+}
+
+.googlemap {
+  width: 100%;
+  min-height: 300px;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
