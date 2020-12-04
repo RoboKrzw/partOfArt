@@ -1,6 +1,10 @@
 @font-face {
-  font-family: "agressive-rhytmes-rog-regular";
-  src: url(fonts/AgressiveRhytmesRog-9YXpB.otf) format(otf);
+  font-family: 'Cloister';
+  src: url("fonts/CloisterBlack-Light.eot");
+  src: url("fonts/CloisterBlack-Light.eot?#iefix") format("embedded-opentype"), url("fonts/CloisterBlack-Light.woff2") format("woff2"), url("fonts/CloisterBlack-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 header {
@@ -10,9 +14,10 @@ header {
 }
 
 .headernav__logo {
-  font-family: "agressive-rhytmes-rog-regular";
-  font-weight: 400;
-  font-size: 3rem !important;
+  font-family: 'Cloister';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 4rem !important;
 }
 
 .headernav__menu {
@@ -49,9 +54,11 @@ header {
 }
 
 .banner__span {
-  font-family: 'Pirata One', cursive;
+  font-family: 'Cloister';
+  font-weight: 300;
+  font-style: normal;
   font-size: 6rem;
-  margin-top: 10%;
+  margin-top: 15%;
   color: #fff;
 }
 
