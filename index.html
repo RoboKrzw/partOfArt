@@ -19,9 +19,9 @@
 </head>
 <body>
 <header>
-    <div class="container">
+    <div class="container" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-dark headernav">
-            <a class="navbar-brand headernav__logo" href="#">Navbar</a>
+            <a class="navbar-brand headernav__logo" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon headernav__icon"></span>
             </button>
@@ -45,43 +45,50 @@
     </div>
 </header>
 
-<section class="header-banner">
+<section class="header-banner" id="banner">
     <div class="banner p-0">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-2 banner__img">
-                    <img src="img/Lion_Tattoo_Left.png" class="banner__img__lion img-fluid d-none d-xl-block" alt="" id="leftlion" data-speed="0.4">
-                </div>
+                
                 <div class="col-8 text-center banner__span" id="spanlion" data-scale="0.001" data-speed1="0.1">
                     <span class="banner__span__text">Part of Art Studio</span>
                 </div>
-                <div class="col-2 banner__img">
-                    <img src="img/Lion_Tattoo_Right.png" class="banner__img__lion img-fluid d-none d-xl-block" alt="" id="rightlion" data-speed="0.4">
-                </div>
+                
             </div>
         </div>
-        <script src="js/paralax.js">
-        </script>
     </div>
 </section>
 <section class="aboutbcg">
-    <div class="container">
-        <div class="about">
+    <div class="about" id="about">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 col-lg-6 about__img">
-                    <img src="img/witamy.jpg" class="about__img__image" alt="">
+                <div class="col-2 about__img">
+                    <img src="img/Lion_Tattoo_Left.png" class="about__img__lion img-fluid d-none d-xl-block" alt="" id="leftlion" data-speed="0.4">
                 </div>
-                <div class="col-sm-12 col-lg-6 about__welcome">
-                    <span class="about__welcome__span">Witamy w naszym studiu</span>
-                    <p class="about__welcome__p">Tatto Studio perspiciatis omnis iste natus laudantore veritatis et architecto beatae vitae nunc sagittis interdum risusut accumsan. Donec faucibus mauris ullamcorper elit feugiat consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nulla ipsum. Curabitur pulvinar enim non justo cursus vestibulum. Praesent eu eros non turpis tempor sagittis in sit amet elit. Ut interdum sed neque elementum fermentum. 
+                <div class="about__mid col-8">
+                    <div class="row">
+                        <div class="col-lg-6 about__mid__img1">
+                            <img src="img/witamy.jpg" class="about__img1__image img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-4 about__mid__welcome">
+                            <span class="about__mid__welcome__span">Witamy w naszym studiu</span>
+                            <p class="about__mid__welcome__p">Tatto Studio perspiciatis omnis iste natus laudantore veritatis et architecto beatae vitae nunc sagittis interdum risusut accumsan. Donec faucibus mauris ullamcorper elit feugiat consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nulla ipsum. Curabitur pulvinar enim non justo cursus vestibulum. Praesent eu eros non turpis tempor sagittis in sit amet elit. Ut interdum sed neque elementum fermentum. 
 
-                    Aommodn quam quo mollitia. Sint veniam autem consectetur dolore dolor, quidem iusto animi explicabo inventore fuga soluta.
+                            Aommodn quam quo mollitia. Sint veniam autem consectetur dolore dolor, quidem iusto animi explicabo inventore fuga soluta.
 
-                    Body Piercing adn Painting ipsum dolor sit amet, consectetur adipiscing elit. Sed a nulla ipsum. Curabitur pulvinar enim non justo cursus vestibulum. Praesent eu eros non turpis tempor sagittis in sit amet elit.
-                    </p>
+                            Body Piercing adn Painting ipsum dolor sit amet, consectetur adipiscing elit. Sed a nulla ipsum. Curabitur pulvinar enim non justo cursus vestibulum. Praesent eu eros non turpis tempor sagittis in sit amet elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 about__img">
+                    <img src="img/Lion_Tattoo_Right.png" class="about__img__lion img-fluid d-none d-xl-block" alt="" id="rightlion" data-speed="0.4">
                 </div>
             </div>
         </div>
+        
+        <script src="js/paralax.js">
+        </script>
     </div>
 </section>
 <section class="artistsbgc">

@@ -46,7 +46,6 @@ header {
 .banner {
   /* Style for "Banner" */
   height: 50vw;
-  overflow: hidden;
 }
 
 .banner__span {
@@ -56,41 +55,54 @@ header {
   color: #fff;
 }
 
-.banner__img {
+.aboutbcg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#85745d), to(#212529)) !important;
+  background: linear-gradient(#85745d, #212529) !important;
+  overflow: hidden;
+}
+
+.about {
+  min-height: 800px;
+}
+
+.about__img {
   padding: 0 !important;
   position: relative;
 }
 
-.banner__img__lion {
+.about__img__lion {
   position: absolute;
-  top: 50px;
+  top: 100px;
 }
 
-.aboutbcg {
-  background-color: #191a1b !important;
+.about__mid {
+  position: relative;
+  margin-top: 10vh;
 }
 
-.about__img {
-  padding-bottom: 36px;
+.about__mid__img1 {
+  position: absolute;
+  padding-bottom: 10vh;
+  left: 8%;
 }
 
-.about__img__image {
+.about__mid__img1__image {
   margin-top: 36px;
   max-width: 100%;
 }
 
-.about__welcome {
+.about__mid__welcome {
   margin-top: 36px;
   background: #000;
-  max-height: 500px;
+  height: 100%;
 }
 
-.about__welcome__span {
+.about__mid__welcome__span {
   /* Style for "welcome to" */
   width: 100%;
   color: #ffffff;
   font-family: Teko;
-  font-size: 3rem;
+  font-size: 3vh;
   font-weight: 400;
   text-align: left;
   text-transform: uppercase;
@@ -99,7 +111,7 @@ header {
   z-index: 3;
 }
 
-.about__welcome__p {
+.about__mid__welcome__p {
   /* Style for "Tatto Stud" */
   width: 100%;
   height: auto;
@@ -112,34 +124,9 @@ header {
   text-transform: uppercase;
 }
 
-@media (min-width: 1200px) {
-  .about .about {
-    position: relative;
-  }
-  .about__img {
-    position: absolute;
-    left: 3%;
-  }
-  .about__welcome {
-    position: absolute;
-    right: 3%;
-    top: 190px;
-  }
-}
-
-@media (min-width: 992px) {
-  .about .about {
-    position: relative;
-  }
-  .about__welcome {
-    position: absolute;
-    right: 6%;
-    top: 30px;
-  }
-}
-
 .artistsbgc {
-  background-color: #191a1b !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#212529)) !important;
+  background: linear-gradient(#000, #212529) !important;
   width: 100%;
   opacity: 0.95;
 }

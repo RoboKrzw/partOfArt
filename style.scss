@@ -53,7 +53,6 @@ header {
 .banner {
     /* Style for "Banner" */
     height: 50vw;
-    overflow: hidden;
 
     &__span {
         font-family: 'Pirata One', cursive;
@@ -61,6 +60,16 @@ header {
         margin-top: 10%;
         color: #fff;
     }
+}
+
+.aboutbcg {
+    background: linear-gradient(#85745d, #212529) !important;
+    overflow: hidden;
+}
+
+.about {
+
+    min-height: 800px;
 
     &__img {
         padding: 0 !important;
@@ -68,89 +77,98 @@ header {
 
         &__lion {
         position: absolute;
-        top: 50px;
+        top: 100px;
         }
     }
-}
 
-.aboutbcg {
-    background-color: #191a1b !important;
-}
+    &__mid {
+        position: relative;
+        margin-top: 10vh;
 
-.about {
-
-    &__img {
-        padding-bottom: 36px;
-        
-        &__image {
+        &__img1 {
+            position: absolute;
+            padding-bottom: 10vh;
+            left: 8%;
+            
+            &__image {
+                margin-top: 36px;
+                max-width: 100%;
+            }
+        }
+        &__welcome {
             margin-top: 36px;
-            max-width: 100%;
-        }
-    }
-
-    &__welcome {
-        margin-top: 36px;
-        background: #000;
-        max-height: 500px;
-
-        &__span {
-            /* Style for "welcome to" */
-            width: 100%;
-            color: #ffffff;
-            font-family: Teko;
-            font-size: 3rem;
-            font-weight: 400;
-            text-align: left;
-            text-transform: uppercase;
-            font-style: normal;
-            letter-spacing: 1px;
-            z-index: 3;
-        }
-
-        &__p {
-            /* Style for "Tatto Stud" */
-            width: 100%;
-            height: auto;
-
-            color: #9c9c9c;
-            font-family: Teko;
-            font-size: 1.3rem;
-            font-weight: 300;
-            font-style: normal;
-            letter-spacing: 1.04px;
-            text-transform: uppercase;
-        }
-    }
-    @media (min-width: 1200px) {
-        .about {
-            position: relative;
+            background: #000;
+            height: 100%;
+    
+            &__span {
+                /* Style for "welcome to" */
+                width: 100%;
+                color: #ffffff;
+                font-family: Teko;
+                font-size: 3vh;
+                //tu zmienic w @media na 2vh
+                font-weight: 400;
+                text-align: left;
+                text-transform: uppercase;
+                font-style: normal;
+                letter-spacing: 1px;
+                z-index: 3;
             }
-            &__img {
-                position: absolute;
-                left: 3%;
+    
+            &__p {
+                /* Style for "Tatto Stud" */
+                width: 100%;
+                height: auto;
+    
+                color: #9c9c9c;
+                font-family: Teko;
+                font-size: 1.3rem;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: 1.04px;
+                text-transform: uppercase;
             }
-            &__welcome {
-                position: absolute;
-                right: 3%;
-                top: 190px;
-        
         }
     }
-    @media (min-width: 992px) {
-        .about {
-            position: relative;
-        }
-            &__welcome {
-                position: absolute;
-                right: 6%;
-                top: 30px;
-        
-        }
-    }
+
+    // @media (min-width: 1200px) {
+
+    //     .about {
+
+    //         &__mid{
+    //             position: relative;
+
+    //             &__img1 {
+    //                 position: absolute;
+    //                 left: 3%;
+    //             }
+
+    //             &__welcome {
+    //                 position: absolute;
+    //                 right: 3%;
+    //                 top: 190px;
+    //             }
+    //         }
+    //     }
+    // }
+    // @media (min-width: 992px) {
+    //     .about {
+
+    //         &__mid{
+    //         position: relative;
+            
+    //             &__welcome {
+    //                 position: absolute;
+    //                 right: 6%;
+    //                 top: 30px;
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 .artistsbgc {
-    background-color: #191a1b !important;
+    background: linear-gradient(#000, #212529) !important;
     width: 100%;
     opacity: 0.95;
 }
